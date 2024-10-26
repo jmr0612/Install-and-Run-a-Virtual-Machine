@@ -40,5 +40,18 @@ Completing this section then leads you to the disk size. I did not expect to nee
 Once completing this, your VM has been created.
 
 4. Install the Operating System
+Your VM will be listed on the left side of the window. Click and highlight the VM you wish to use and hit start. This will open a prompt indicating your VM does not have an operating system. Click to indicate you wish to install an OS. This will open another small window which allows you to search for a file. Click the folder button and search for the OS installer file. Double-click the installer file and click to run the install. Follow the installer and pick the setting according to your preference. This will include your location, language, username and password, etc. 
+![Screenshot (12)](https://github.com/user-attachments/assets/b7aabb72-5bba-46c7-bd85-7d38224b8e04)
+![Screenshot (33)](https://github.com/user-attachments/assets/e2ada319-82a6-4a30-9eff-b255787e2319)
 
-5.  
+5. Use your Virtual Machine
+After setup is complete, you can login to your machine.
+![Screenshot (38)](https://github.com/user-attachments/assets/a1ffef2e-65ec-4bd4-b0c3-d04688a9a3d4)
+![Screenshot (39)](https://github.com/user-attachments/assets/f195263f-5cc3-4c94-8cc0-18c3489546a8)
+
+## Issues
+
+During my creation of my virtual machine, I did run into a few issues, which became learning points. First, I initially downloaded the 64-bit version of Kali. I did to get the better performance. Once I attempted to install Kali on the VM, the setup would crash. I conducted research and found a setting needed to be changed in the BIOS. I went to change the setting in the BIOS and found it was only an Intel CPU setting. I found my CPU was an AMD CPU. I downloaded a 32-bit version of Kali and found it worked. I continued to research how to troubleshoot this issue. I found the Hypervision feature needed to be turned off and was off on my system. I checked to see if my processor was a 64-bit processor and it was. At this time, I have not found a solution to use the 64-bit version but will continue to research and update this project. 
+
+During my research of the CPU, I found my laptop only had 4GB of RAM. I found this was not ideal for running a VM and nearly impossible to run 2 VMs for simulated attacks. 
+
